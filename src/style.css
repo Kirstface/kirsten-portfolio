@@ -2,9 +2,14 @@ body {
   background-color: #e0e0e0;
 }
 h1 {
-  background-color: black;
-  color: #f0efef;
+  background-color: #fff;
+  color: rgb(22, 22, 22);
   text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 10px;
+  padding: 20px 0px !important;
 }
 
 p {
@@ -12,4 +17,6 @@ p {
   margin: 20px auto;
   text-align: center;
   max-width: 500px;
+  font-family: "Lato", sans-serif;
+  color: rgb(22, 22, 22);
 }
