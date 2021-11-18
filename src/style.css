@@ -76,11 +76,18 @@ p {
   font-family: "Lato", sans-serif;
   transition: all 120ms ease-in-out;
   font-weight: 600;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.03);
 }
 .aboutKButton:hover {
   color: var(--primary-highlight-color);
   background-color: var(--primary-font-color);
   border: 2px solid var(--primary-font-color);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.03);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 @media (max-width: 576px) {
