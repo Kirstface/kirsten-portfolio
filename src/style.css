@@ -9,11 +9,17 @@
 body {
   background-color: #fff;
   font-family: "Lato", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 h1,
 h3,
-h4 {
+h4,
+h5 {
   font-family: "Kanit", sans-serif;
 }
 
@@ -50,6 +56,17 @@ h4 {
   color: var(--primary-font-color);
 }
 
+h5 {
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #9dbeb9;
+  background-color: var(--primary-font-color);
+}
+
 p {
   position: relative;
   left: 10.1%;
@@ -59,7 +76,6 @@ p {
   color: var(--primary-font-color);
   margin: 0;
 }
-
 .hero {
   background-color: var(--primary-brand-color);
   margin: 0;
@@ -88,6 +104,15 @@ p {
 .btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+.portfolioTitle {
+  background-color: var(--primary-font-color);
+  padding: 20px;
+}
+
+.bodyContent {
+  background-color: #f5cb5c;
 }
 
 @media (max-width: 576px) {
