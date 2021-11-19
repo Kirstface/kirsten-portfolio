@@ -101,6 +101,7 @@ img {
   transition: all 120ms ease-in-out;
   font-weight: 600;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
 }
 .aboutKButton:hover {
   color: var(--primary-highlight-color);
@@ -184,14 +185,16 @@ img {
   text-align: center;
   margin-top: 20px;
   line-height: 1.4rem;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  padding: 0px 20px;
 }
 
 .dictionaryParagraph {
   text-align: center;
   margin-top: 20px;
   line-height: 1.4rem;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  padding: 0px 20px;
 }
 
 .secretTitlesTwo {
@@ -200,7 +203,7 @@ img {
   font-weight: 700;
   color: var(--primary-font-color);
   text-transform: capitalize;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .secretTitlesThree {
@@ -209,7 +212,64 @@ img {
   font-weight: 700;
   color: var(--primary-font-color);
   text-transform: capitalize;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.weatherButton {
+  color: var(--primary-font-color);
+  border: 2px solid var(--primary-brand-color);
+  background-color: var(--primary-brand-color);
+  padding: 20px 40px;
+  width: 300px;
+  font-family: "Lato", sans-serif;
+  transition: all 120ms ease-in-out;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.weatherButton:hover {
+  color: var(--primary-brand-color);
+  background-color: var(--primary-font-color);
+  border: 2px solid var(--primary-font-color);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portfolioButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.designButton,
+.dictionaryButton {
+  color: var(--primary-brand-color);
+  border: 2px solid var(--primary-font-color);
+  background-color: var(--primary-font-color);
+  padding: 20px 40px;
+  width: 300px;
+  font-family: "Lato", sans-serif;
+  transition: all 120ms ease-in-out;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.designButton:hover {
+  color: var(--primary-font-color);
+  background-color: var(--primary-highlight-color);
+  border: 2px solid var(--primary-highlight-color);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dictionaryButton:hover {
+  color: var(--primary-font-color);
+  background-color: var(--primary-highlight-color);
+  border: 2px solid var(--primary-highlight-color);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dictionaryButton {
+  margin-bottom: 60px;
 }
 
 @media (max-width: 576px) {
@@ -253,7 +313,7 @@ img {
 
   .containerOne {
     border-radius: 0px;
-    height: 400px;
+    height: 380px;
     padding: 40px 30px 10px 30px;
   }
 
@@ -265,6 +325,12 @@ img {
   .doubleImages {
     display: block;
     margin: 0 auto;
+  }
+
+  .aboutKButton {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    width: 300px;
   }
 }
 
