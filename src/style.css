@@ -71,6 +71,10 @@ img {
   height: auto;
 }
 
+u {
+  color: var(--primary-highlight-color);
+}
+
 .wrapper {
   overflow-x: hidden;
 }
@@ -284,6 +288,7 @@ img {
   font-size: 400px;
 }
 .porth1,
+.contacth1,
 .abouth1 {
   line-height: 4rem;
 }
@@ -392,6 +397,32 @@ img {
   font-size: 16px;
   text-align: center;
 }
+
+.contactHeadContainer {
+  height: 300px;
+}
+
+.contactLink {
+  position: relative;
+  left: 10.3%;
+  top: 126px;
+  line-height: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  color: var(--primary-font-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-highlight-color);
+  text-decoration: none;
+}
+
+.contactMe {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 576px) {
   h1,
   h3,
