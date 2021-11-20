@@ -272,6 +272,46 @@ img {
   margin-bottom: 60px;
 }
 
+.fa-book-open {
+  font-size: 300px;
+  color: #333533;
+}
+
+.fa-palette,
+.fa-snowflake,
+.fa-cloud,
+.fa-sun {
+  font-size: 400px;
+}
+
+.abouth1 {
+  line-height: 4rem;
+}
+
+.abouth4 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+.aboutParagraph {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0px;
+  margin-right: 20px;
+}
+
+.profilePhoto {
+  position: relative;
+  left: 1%;
+  top: 166px;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #fff;
+  margin-left: 20px;
+}
+
 @media (max-width: 576px) {
   h1,
   h3,
