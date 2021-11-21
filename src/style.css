@@ -100,7 +100,8 @@ img {
   color: var(--primary-font-color);
   border: 2px solid var(--primary-highlight-color);
   background-color: var(--primary-highlight-color);
-  padding: 10px 40px;
+  padding: 20px 40px;
+  width: 300px;
   position: relative;
   top: 21px;
   font-family: "Lato", sans-serif;
@@ -297,6 +298,7 @@ img {
   max-width: 700px;
   margin: 0px;
   margin-right: 20px;
+  height: 900px;
 }
 
 .profilePhoto {
@@ -429,20 +431,58 @@ a:hover {
   width: 100%;
   color: var(--primary-brand-color);
   padding: 30px;
-  display: flex;
+  display: grid;
   justify-content: center;
-  padding-bottom: 250px;
+  padding-bottom: 100px;
+  padding-top: 70px;
 }
 .last-footer {
   background-color: #242524;
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   color: #787d78;
   font-size: 13px;
   letter-spacing: 0.5px;
+  padding-top: 30px;
 }
-.footer-para {
+.lastFooterLink {
+  color: #787d78;
+}
+
+.lastFooterLink:hover {
+  color: var(--primary-highlight-color);
+  text-decoration: underline;
+}
+
+.footer-container-social {
+  display: block;
+  margin: 0 auto;
+}
+.footer-container-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.emailButton {
+  color: var(--primary-font-color);
+  border: 2px solid var(--primary-highlight-color);
+  background-color: var(--primary-highlight-color);
+  padding: 20px 40px;
+  width: 300px;
+  font-family: "Lato", sans-serif;
+  transition: all 120ms ease-in-out;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.emailButton:hover {
+  color: var(--primary-font-color);
+  background-color: var(--primary-brand-color);
+  border: 2px solid var(--primary-brand-color);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 /*FONT AWESOME ICONS */
@@ -461,6 +501,16 @@ a:hover {
 .fa-instagram,
 .fa-twitter {
   font-size: 45px;
+  text-align: center;
+  margin: 0px 20px;
+  color: var(--primary-brand-color);
+}
+
+.fa-github-alt:hover,
+.fa-instagram:hover,
+.fa-twitter:hover {
+  color: var(--primary-highlight-color);
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {
