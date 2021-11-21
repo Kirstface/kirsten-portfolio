@@ -65,6 +65,10 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 .mainTitle {
   position: relative;
   left: 10%;
@@ -140,17 +144,22 @@ img {
   padding-bottom: 0px;
 }
 
-.containerTwo {
+.hidden-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 0 auto;
   margin-top: 25px;
   margin-bottom: 30px;
 }
 
 .doubleImages {
-  display: flex;
+  display: block;
   justify-content: center;
+}
+
+.firstRow {
+  display: inline;
+  margin: 0 auto;
 }
 
 .secretTitles {
@@ -210,7 +219,7 @@ img {
   font-weight: 700;
   color: var(--primary-font-color);
   text-transform: capitalize;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .secretTitlesThree {
@@ -219,7 +228,7 @@ img {
   font-weight: 700;
   color: var(--primary-font-color);
   text-transform: capitalize;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .weatherButton {
@@ -245,6 +254,7 @@ img {
 .portfolioButtons {
   display: flex;
   justify-content: center;
+  padding-bottom: 40px;
 }
 
 .designButton,
@@ -259,6 +269,9 @@ img {
   font-weight: 600;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
 }
 
 .designButton:hover {
@@ -266,6 +279,7 @@ img {
   background-color: var(--primary-highlight-color);
   border: 2px solid var(--primary-highlight-color);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 
 .dictionaryButton:hover {
@@ -275,9 +289,9 @@ img {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.dictionaryButton {
+/*.dictionaryButton {
   margin-bottom: 60px;
-}
+}*/
 
 .porth1,
 .contacth1,
@@ -485,17 +499,66 @@ a:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-/*FONT AWESOME ICONS */
-
-.fa-book-open {
-  font-size: 300px;
-  color: #333533;
+.weatherIcons {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0px;
 }
+
+.containerDeux {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.containerThree {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.designInformation,
+.dictionaryInformation {
+  padding: 0px 70px;
+}
+
+.secondSetIcons {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.information-container {
+  display: flex;
+  justify-content: center;
+}
+.ddPortfolioButtons {
+  margin-bottom: 40px;
+}
+
+.footer-container {
+  background-color: #333533;
+}
+
+/*FONT AWESOME ICONS */
 .fa-palette,
+.fa-book-open {
+  font-size: 350px;
+  color: #333533;
+  padding: 50px;
+}
+
 .fa-snowflake,
 .fa-cloud,
 .fa-sun {
-  font-size: 400px;
+  font-size: 250px;
+  color: #333533;
 }
 .fa-github-alt,
 .fa-instagram,
@@ -514,9 +577,9 @@ a:hover {
 }
 
 @media (max-width: 576px) {
-  h1,
+  .mainTitle,
   h3,
-  h4 {
+  .mainSubTitle {
     justify-content: center;
     text-align: center;
     top: 60px;
@@ -554,16 +617,16 @@ a:hover {
 
   .containerOne {
     border-radius: 0px;
-    height: 380px;
+    height: 390px;
     padding: 40px 30px 10px 30px;
   }
 
-  .containerTwo {
+  .hidden-container {
     display: block;
     margin: 0 auto;
   }
 
-  .doubleImages {
+  .hiddenWords {
     display: block;
     margin: 0 auto;
   }
@@ -573,17 +636,45 @@ a:hover {
     padding: 20px 40px;
     width: 300px;
   }
+
+  .weatherIcons {
+    padding: 0px;
+    display: none;
+  }
+  .PortfolioButtons {
+    padding-bottom: 0px;
+  }
+  .footer-container {
+    background-color: #333533;
+  }
+
+  .dictionaryButton {
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .footer-container-button {
+    margin-top: 20px;
+  }
+
+  .footer-para {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 1350px) {
-  .containerTwo {
+  .hidden-container {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     width: 100%;
   }
 
-  .doubleImages {
+  .hiddenWords {
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -601,5 +692,13 @@ a:hover {
     height: auto;
     margin: 0 auto;
     margin-top: 20px;
+  }
+
+  .footer-container {
+    background-color: #333533;
+  }
+
+  .footer {
+    padding-bottom: 40px;
   }
 }
