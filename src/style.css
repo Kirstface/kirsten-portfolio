@@ -306,7 +306,7 @@ a {
   max-width: 700px;
   margin: 0px;
   margin-right: 20px;
-  height: 700px;
+  height: 800px;
 }
 
 .profilePhoto {
@@ -731,6 +731,25 @@ a:hover {
   .linkSizeMenu {
     font-size: 12px;
     font-family: "Lato", sans-serif;
+  }
+  .abouth4Responsive,
+  .abouth1Responsive {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .abouth4Responsive {
+    margin-top: 20px;
+  }
+
+  .aboutParagraphResponsive {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 500px;
+  }
+  .portfolioHeadContainer {
+    height: 250px;
   }
 }
 
