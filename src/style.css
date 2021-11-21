@@ -585,6 +585,12 @@ a:hover {
   width: 100%;
 }
 
+.topMenuIndex {
+  background-color: var(--secondary-background-color);
+  padding: 0px 0px;
+  width: 100%;
+}
+
 .ulTopMenu {
   padding: 0;
   margin-top: 20px;
@@ -595,7 +601,7 @@ a:hover {
   display: inline;
   list-style: none;
   line-height: 43px;
-  margin-left: 15px;
+  margin-left: 50px;
   font-weight: 600;
   font-family: "Lato", sans-serif;
   color: var(--secondary-font-color);
@@ -605,6 +611,15 @@ a:hover {
   padding-left: 40px;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.liTopMenu:hover {
+  color: #62938c;
+}
+
+.active {
+  color: #62938c;
+  font-weight: 500;
 }
 
 @media (max-width: 576px) {
