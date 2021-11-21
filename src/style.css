@@ -155,11 +155,6 @@ a {
   margin-bottom: 30px;
 }
 
-.doubleImages {
-  display: block;
-  justify-content: center;
-}
-
 .firstRow {
   display: inline;
   margin: 0 auto;
@@ -291,10 +286,6 @@ a {
   border: 2px solid var(--primary-highlight-color);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
-
-/*.dictionaryButton {
-  margin-bottom: 60px;
-}*/
 
 .porth1,
 .contacth1,
