@@ -34,9 +34,6 @@ h3 {
 }
 
 h1 {
-  position: relative;
-  left: 10%;
-  top: 159px;
   font-weight: 700;
   line-height: 3.1rem;
   font-size: 60px;
@@ -45,9 +42,6 @@ h1 {
 }
 
 h4 {
-  position: relative;
-  left: 10.1%;
-  top: 153px;
   line-height: 1rem;
   font-size: 30px;
   font-weight: 500;
@@ -71,8 +65,16 @@ img {
   height: auto;
 }
 
-u {
-  color: var(--primary-highlight-color);
+.mainTitle {
+  position: relative;
+  left: 10%;
+  top: 159px;
+}
+
+.mainSubTitle {
+  position: relative;
+  left: 10.1%;
+  top: 153px;
 }
 
 .wrapper {
@@ -276,21 +278,11 @@ u {
   margin-bottom: 60px;
 }
 
-.fa-book-open {
-  font-size: 300px;
-  color: #333533;
-}
-
-.fa-palette,
-.fa-snowflake,
-.fa-cloud,
-.fa-sun {
-  font-size: 400px;
-}
 .porth1,
 .contacth1,
 .abouth1 {
   line-height: 4rem;
+  max-width: 600px;
 }
 
 .abouth4 {
@@ -399,13 +391,14 @@ u {
 }
 
 .contactHeadContainer {
-  height: 300px;
+  height: 400px;
+  width: auto;
 }
 
 .contactLink {
   position: relative;
   left: 10.3%;
-  top: 126px;
+  top: 45px;
   line-height: 1rem;
   font-size: 18px;
   font-weight: 500;
@@ -421,6 +414,53 @@ a:hover {
 
 .contactMe {
   margin-bottom: 50px;
+  position: relative;
+  left: 10.1%;
+  top: 70px;
+}
+
+.contactContainer {
+  height: 800px;
+  text-align: left;
+}
+
+.footer {
+  background-color: var(--primary-font-color);
+  width: 100%;
+  color: var(--primary-brand-color);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 250px;
+}
+.last-footer {
+  background-color: #242524;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  color: #787d78;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.footer-para {
+}
+
+/*FONT AWESOME ICONS */
+
+.fa-book-open {
+  font-size: 300px;
+  color: #333533;
+}
+.fa-palette,
+.fa-snowflake,
+.fa-cloud,
+.fa-sun {
+  font-size: 400px;
+}
+.fa-github-alt,
+.fa-instagram,
+.fa-twitter {
+  font-size: 45px;
 }
 
 @media (max-width: 576px) {
