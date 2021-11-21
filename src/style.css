@@ -579,6 +579,8 @@ a:hover {
   cursor: pointer;
 }
 
+/*NAVIGATION*/
+
 .topMenu {
   background-color: #cfdbd5;
   padding: 0px 0px;
@@ -624,7 +626,6 @@ a:hover {
 
 @media (max-width: 576px) {
   .mainTitle,
-  h3,
   .mainSubTitle {
     justify-content: center;
     text-align: center;
@@ -645,6 +646,9 @@ a:hover {
     margin-top: 20px;
   }
 
+  a {
+    margin: 0px;
+  }
   .hero {
     height: 520px;
   }
@@ -710,6 +714,33 @@ a:hover {
   .footer-para {
     font-size: 10px;
   }
+
+  .liTopMenu {
+    font-size: 14px;
+    line-height: 0px;
+    font-weight: 400;
+    margin-left: 0px;
+  }
+
+  .topMenuLogo {
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 10px;
+  }
+
+  .ulTopMenu {
+    margin-top: 10px;
+  }
+
+  .active {
+    margin: 0px;
+  }
+
+  .linkSizeMenu {
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+  }
 }
 
 @media (max-width: 1350px) {
@@ -746,5 +777,9 @@ a:hover {
 
   .footer {
     padding-bottom: 40px;
+  }
+
+  .liTopMenu {
+    margin-left: 40px;
   }
 }
