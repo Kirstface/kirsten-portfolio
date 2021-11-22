@@ -596,6 +596,7 @@ a:hover {
   line-height: 43px;
   margin-left: 50px;
   font-weight: 500;
+  margin-right: 0px;
   font-family: "Lato", sans-serif;
   color: var(--secondary-font-color);
 }
@@ -615,7 +616,7 @@ a:hover {
   font-weight: 400;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 736px) {
   .mainTitle,
   .mainSubTitle {
     justify-content: center;
@@ -642,6 +643,10 @@ a:hover {
   }
   .hero {
     height: 520px;
+  }
+
+  li {
+    margin-right: 0px;
   }
 
   .headerParagraph {
@@ -705,12 +710,18 @@ a:hover {
   .footer-para {
     font-size: 10px;
   }
-
   .liTopMenu {
     font-size: 14px;
     line-height: 0px;
     font-weight: 400;
-    margin-left: 0px;
+    display: flex;
+    justify-content: right;
+    padding: 10px 0px;
+    padding-left: 95px;
+  }
+
+  .logoSection {
+    margin-bottom: 10px;
   }
 
   .topMenuLogo {
@@ -719,13 +730,22 @@ a:hover {
     padding-right: 0px;
     padding-top: 10px;
   }
+  .contactLink {
+    font-size: 15px;
+  }
 
+  .contactMe {
+    font-size: 25px;
+  }
   .ulTopMenu {
     margin-top: 10px;
   }
 
   .active {
     margin: 0px;
+  }
+  .contactContainer {
+    height: 600px;
   }
 
   .linkSizeMenu {
@@ -750,6 +770,10 @@ a:hover {
   }
   .portfolioHeadContainer {
     height: 250px;
+  }
+
+  .portfolioHeadContainer {
+    height: 350px;
   }
 }
 
